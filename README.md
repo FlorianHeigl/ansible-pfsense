@@ -17,7 +17,7 @@ Requisites
 By default pfsense doesn't provide python interperter, that is necessary to run ansible in it. As root in pfsense, run:
 
 ```sh
-pkg_add -r http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/ports/amd64/packages-8.3-release/python/python27-2.7.2_4.tbz
+pkg install python27
 ```
 
 Then, test ansible connection with:
